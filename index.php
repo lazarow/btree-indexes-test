@@ -19,7 +19,7 @@ $end = microtime(true);
 echo 'Execution time of creating database structure = ' . ($end - $start) . ' sec.' . PHP_EOL; 
 
 // seeding random data
-$nofRecords = 200000;
+$nofRecords = 700000;
 $start = microtime(true);
 $inserts = [];
 while ($nofRecords--) {
